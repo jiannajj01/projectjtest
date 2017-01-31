@@ -1,1 +1,223 @@
-# projectjtest
+print('Welcome to Test Generator!')
+
+questions = [] # make an empty list for the questions that are being inputted
+
+ac_one = [] # make empty lists for the answer choices for each question
+ac_two = []
+ac_three = []
+ac_four = []
+ac_five = []
+ac_six = []
+ac_seven = []
+ac_eight = []
+ac_nine = []
+ac_ten = []
+
+one_input = input('1. Enter what you would like the first question to be: ') # one_input inserts the question that is inputted into the questions list
+questions.insert(1,one_input)
+
+one_a = input('A. Enter what the first multiple choice would be: ') # one_a is the first multiple choice, then it inserts the input into the answer choice list
+ac_one.insert(1, one_a)
+one_b = input('B. Enter what the second multiple choice would be: ')
+ac_one.insert(2,one_b)
+one_c = input('C. Enter what the third multiple choice would be: ')
+ac_one.insert(3,one_c)
+one_d = input('D. Enter what the fourth multiple choice would be: ')
+ac_one.insert(4,one_d)
+print(' ') # insert space between the input
+
+two_input = input('2. Enter what you would like the second question to be: ')
+questions.insert(2,two_input)
+
+two_a = input('A. Enter what the first multiple choice would be: ')
+ac_two.insert(1,two_a)
+two_b = input('B. Enter what the second multiple choice would be: ')
+ac_two.insert(2,two_b)
+two_c = input('C. Enter what the third multiple choice would be: ')
+ac_two.insert(3,two_c)
+two_d = input('D. Enter what the fourth multiple choice would be: ')
+ac_two.insert(4,two_d)
+print(' ') # insert space between the input
+
+three_input = input('3. Enter what you would like the third question to be: ')
+questions.insert(3,three_input)
+
+three_a = input('A. Enter what the first multiple choice would be: ')
+ac_three.insert(1,three_a)
+three_b = input('B. Enter what the second multiple choice would be: ')
+ac_three.insert(2,three_b)
+three_c = input('C. Enter what the third multiple choice would be: ')
+ac_three.insert(3,three_c)
+three_d = input('D. Enter what the fourth multiple choice would be: ')
+ac_three.insert(4,three_d)
+print(' ') # insert space between the input
+
+four_input = input('4. Enter what you would like the fourth question to be: ')
+questions.insert(4,four_input)
+
+four_a = input('A. Enter what the first multiple choice would be: ')
+ac_four.insert(1,four_a)
+four_b = input('B. Enter what the second multiple choice would be: ')
+ac_four.insert(2,four_b)
+four_c = input('C. Enter what the third multiple choice would be: ')
+ac_four.insert(3,four_c)
+four_d = input('D. Enter what the fourth multiple choice would be: ')
+ac_four.insert(4,four_d)
+print(' ')  # insert space between the input
+
+five_input = input('5. Enter what you would like the fifth question to be: ')
+questions.insert(5,five_input)
+
+five_a = input('A. Enter what the first multiple choice would be: ')
+ac_five.insert(1,five_a)
+five_b = input('B. Enter what the second multiple choice would be: ')
+ac_five.insert(2,five_b)
+five_c = input('C. Enter what the third multiple choice would be: ')
+ac_five.insert(3,five_c)
+five_d = input('D. Enter what the fourth multiple choice would be: ')
+ac_five.insert(4,five_d)
+print(' ') # insert space between the input
+
+six_input = input('6. Enter what you would like the sixth question to be: ')
+questions.insert(6,six_input)
+six_a = input('A. Enter what the first multiple choice would be: ')
+ac_six.insert(1,six_a)
+six_b = input('B. Enter what the second multiple choice would be: ')
+ac_six.insert(2,six_b)
+six_c = input('C. Enter what the third multiple choice would be: ')
+ac_six.insert(3,six_c)
+six_d = input('D. Enter what the fourth multiple choice would be: ')
+ac_six.insert(4,six_d)
+print(' ') # insert space between the input
+
+seven_input = input('7. Enter what you would like the seventh question to be: ')
+questions.insert(7,seven_input)
+seven_a = input('A. Enter what the  multiple choice would be: ')
+ac_seven.insert(1,seven_a)
+seven_b = input('B. Enter what the  multiple choice would be: ')
+ac_seven.insert(2,seven_b)
+seven_c = input('C. Enter what the third multiple choice would be: ')
+ac_seven.insert(3,seven_c)
+seven_d = input('D. Enter what the fourth multiple choice would be: ')
+ac_seven.insert(4,seven_d)
+print(' ') # insert space between the input
+
+eight_input = input('8. Enter what you would like the eighth question to be: ')
+questions.insert(8,eight_input)
+eight_a = input('A. Enter what the first multiple choice would be: ')
+ac_eight.insert(1,eight_a)
+eight_b = input('B. Enter what the second multiple choice would be: ')
+ac_eight.insert(1,eight_b)
+eight_c = input('C. Enter what the third multiple choice would be: ')
+ac_eight.insert(3,eight_c)
+eight_d = input('D. Enter what the fourth multiple choice would be: ')
+ac_eight.insert(4,eight_d)
+print(' ') # insert space between the input
+
+nine_input = input('9. Enter what you would like the ninth question to be: ')
+questions.insert(9,nine_input)
+nine_a = input('A. Enter what the first multiple choice would be: ')
+ac_nine.insert(1,nine_a)
+nine_b = input('B. Enter what the second multiple choice would be: ')
+ac_nine.insert(2,nine_b)
+nine_c = input('C. Enter what the third multiple choice would be: ')
+ac_nine.insert(3,nine_c)
+nine_d = input('D. Enter what the fourth multiple choice would be: ')
+ac_nine.insert(4,nine_d)
+print(' ') # insert space between the input
+
+ten_input = input('10. Enter what you would like the tenth question to be: ')
+questions.insert(10,ten_input)
+ten_a = input('A. Enter what the first multiple choice would be: ')
+ac_ten.insert(1,ten_a)
+ten_b = input('B. Enter what the second multiple choice would be: ')
+ac_ten.insert(2,ten_b)
+ten_c = input('C. Enter what the third multiple choice would be: ')
+ac_ten.insert(3,ten_c)
+ten_d = input('D. Enter what the fourth multiple choice would be: ')
+ac_ten.insert(4,ten_d)
+print(' ') # insert space between the input
+
+print('Name:_____')
+print('Date:_____')
+print('Teacher:_____')
+print('Period:_____')
+
+for number,letter in enumerate(questions): # this function takes the question inputted and numbers it
+    print(number,letter)
+
+for number,letter in enumerate(ac_one): # this function takes the values in the lists, and numbers them by index, since this is the answer choices list, it will 'number' it with the '~' symbol
+    number = '~'
+    print(number,letter)
+    print(' ') # insert space between the questions and answers
+
+for number,letter in enumerate(questions):
+    print(questions)(number,letter)
+
+for number,letter in enumerate(ac_two):
+    number = '~'
+    print(number,letter)
+    print(' ')
+
+for number,letter in enumerate(questions):
+    print(number,letter)
+
+for number,letter in enumerate(ac_three):
+    number = '~'
+    print(number,letter)
+    print(' ')
+
+for number,letter in enumerate(questions):
+    print(number,letter)
+
+for number,letter in enumerate(ac_four):
+    number = '~'
+    print(number,letter)
+    print(' ')
+
+for number,letter in enumerate(questions):
+    print(number,letter)
+
+for number,letter in enumerate(ac_five):
+    number = '~'
+    print(number,letter)
+    print(' ')
+
+for number,letter in enumerate(questions):
+    print(number,letter)
+
+for number,letter in enumerate(ac_six):
+    number = '~'
+    print(number,letter)
+    print(' ')
+
+for number,letter in enumerate(questions):
+    print(number,letter)
+
+for number,letter in enumerate(ac_seven):
+    number = '~'
+    print(number,letter)
+    print(' ')
+
+for number,letter in enumerate(questions):
+    print(number,letter)
+
+for number,letter in enumerate(ac_eight):
+    number = '~'
+    print(number,letter)
+    print(' ')
+
+for number,letter in enumerate(questions):
+    print(number,letter)
+
+for number,letter in enumerate(ac_nine):
+    number = '~'
+    print(number,letter)
+    print(' ') 
+    
+for number,letter in enumerate(questions):
+    print(number,letter)
+
+for number,letter in enumerate(ac_ten):
+    number = '~'
+    print(number,letter) 
